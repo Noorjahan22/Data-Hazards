@@ -104,6 +104,16 @@ The task of removing data dependencies can be delegated to the compiler, which c
 ![image](https://github.com/Noorjahan22/Data-Hazards/assets/168285209/51382942-feb4-48f6-a1ce-8cee8d34145d)
 
 
+EXAMPLE
+
+
+![image](https://github.com/Noorjahan22/Data-Hazards/assets/168285209/48c4f524-76d1-46aa-b807-d2ede3c8eb28)
+If we look at this particular pipeline execution of these instructions. We find that data
+hazard is arising in spite of the fact that results are already available in the pipeline
+registers. Although it has not had been data has not had been written into the register that
+register where it has to be written that is r 1, but those values which was computed here
+in the third clock cycle are already available in different pipeline registers.
+
 Operand forwarding
 Main article: Operand forwarding
 Examples
